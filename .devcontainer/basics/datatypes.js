@@ -9,3 +9,12 @@ console.log(typeof name);
 console.log(typeof age);
 let isnumber =number(name);
 console.log(typeof isnumber)
+//primitive data types
+//Number, string, boolean,null,symbol,undefined,BigInt
+//refrence
+//object,array,function
+const id=Symbol('123')
+const anotherid=Symbol('123')
+console.log(id)
+console.log(anotherid)
+
