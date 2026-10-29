@@ -1,0 +1,10 @@
+/* let myDate= new Date()
+console.log(myDate.toDateString())
+console.log(myDate.toString())
+console.log(myDate.toLocaleString())
+console.log(myDate.toIsoString) */
+let createdmydate = new Date(2026,9,27)
+console.log(createdmydate.toDateString())
+let mytimestamp= Date.now()
+console.log(mytimestamp)
+console.log(createdmydate.getTime())
